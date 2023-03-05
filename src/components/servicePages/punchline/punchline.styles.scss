@@ -1,0 +1,21 @@
+.punch-line-section {
+    background: #6d5dfc;
+    padding: 5px 0px ;
+    user-select: none;
+    user-select: none;
+}
+.punch-line-section h2 {
+    /* color: white; */
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'DM Serif Display', serif;
+}
+
+@media (max-width:600px){
+    .punch-line-section h2 {
+        font-size: 18px;
+        padding: 0px 5px;
+    }
+}

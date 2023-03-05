@@ -1,0 +1,86 @@
+.after-case-studies {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 30px 0px;
+    user-select: none;
+  }
+  .main-after-case {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  .after-case-image {
+    width: 50%;
+  }
+  .after-case-text {
+    width: 50%;
+  }
+  .after-case-text p {
+    text-align: left;
+  }
+  .after-case-image img {
+    width: 80%;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  .after-case-image img:hover {
+    transform: scale(1.02);
+  }
+  .after-case-text h4 {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .why-icons-section i {
+    color: green;
+  }
+  .why-icons-section h4 {
+    padding-left: 10px;
+  }
+  .why-icons-section {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .after-case-text h2 {
+    font-size: 46px;
+  }
+  
+  @media(max-width:600px){
+    .main-after-case {
+      flex-direction: column;
+  }
+  .after-case-image {
+      width: 100%;
+  }
+  .after-case-text {
+      width: 100%;
+  }
+  .after-case-image img {
+      width: 100%;
+  }
+  .after-case-text h4 {
+      margin-top: 15px;
+      text-align: justify;
+      text-transform: capitalize;
+      align-items: center;
+      display: flex;
+  }
+  .after-case-text h2 {
+      font-size: 40px;
+    }
+    .why-icons-section {
+      padding: 0;
+    }
+    .why-icons-section i {
+      padding-top: 10px;
+    }
+    .why-choose-para {
+      font-size: 15px !important;
+      line-height: 1.5rem;
+    }
+  }

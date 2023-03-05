@@ -1,0 +1,43 @@
+.business-we-own {
+    background: white;
+    /* height: 70vh; */
+    text-align: center;
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    h2 {
+        font-size: 46px;
+        text-transform: capitalize;
+        font-family: 'DM Serif Display', serif;
+    }
+    .logos-section {
+        display: flex;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto ;
+        justify-content: space-between;
+        margin-top: 50px;
+    img {
+        width: 150px;
+    height: auto;
+    }
+    }
+}
+
+@media (max-width:600px){
+    .logos-section {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-top: 0px;
+    }
+    #business-that-own {
+        font-size: 40px;
+    }
+    .logos-section img {
+        margin-top: 50px;
+    }
+}

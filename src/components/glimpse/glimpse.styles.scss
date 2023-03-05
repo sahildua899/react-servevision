@@ -1,0 +1,56 @@
+.glimpse-section {
+    background: #078bbf;
+    padding-top: 30px;
+    padding: 40px 0px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+
+
+.glimpse-section-content {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    h2 {
+        color: white;
+        font-size: 36px;
+    }
+    p {
+        color: white;
+        text-align: justify;
+    }
+    }
+    .glimpse-section-video {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .glimpse-section {
+        flex-direction: column;
+        
+        .glimpse-section-content {
+            width: 100%;
+            max-width: 90%;
+        }
+        .glimpse-section-video {
+            width: 100%;
+            max-width: 80%;
+            margin-top: 5%;
+            
+            iframe {
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}

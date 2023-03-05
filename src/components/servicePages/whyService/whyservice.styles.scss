@@ -1,0 +1,118 @@
+.why-servevision-section {
+    /* height: 100vh; */
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+.why-servevision-section h2 {
+    text-align: center;
+    font-size: 40px !important;
+    text-transform: capitalize;
+}
+
+/* Cards Section */
+.paper {
+    margin: 10vh auto;
+    min-width: 20vw;
+    max-width: 60vh;
+    min-height: 20vh;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50, 50, 90, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    transition: 0.6s ease;
+    background: white;
+    text-align: center;
+    height: 286px;
+    padding-top: 30px;
+  }
+  
+  .paper:hover {
+    box-shadow: 0 18px 35px rgba(50, 50, 90, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+    transform: translateY(-1px);
+  }
+  
+  .cards img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  
+  .poster {
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 2vh;
+    display: none;
+  }
+  
+  .cards h1 {
+    font-size: 2rem;
+    color: #303336;
+    letter-spacing: 1px;
+    margin: 2vh;
+    font-family: "Playfair Display", serif;
+  }
+  
+  
+  .cards hr {
+    width: 20%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 0;
+    border-bottom: 1px solid #E6E9EC;
+  }
+  
+  .cards p {
+    margin: 1vh 0.8vw;
+    text-align: justify;
+    padding-bottom: 1vh;
+    color: #A0A6AB;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+
+  }
+
+  .cards {
+    width: 25%;
+    cursor: pointer;
+    
+  }
+  .cards:hover {
+    transform: scale(1.02);
+  }
+  .why-cards-section {
+    display: flex;
+    justify-content: space-between;
+  }
+.why-ppc-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    user-select: none;
+}
+.why-ppc-section h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.why-servevision-section p {
+    padding-top: 10px;
+}
+
+@media (max-width:600px){
+    .why-cards-section {
+        flex-direction: column;
+    }
+    .why-servevision-section h2 {
+       font-size: 40px !important;
+       text-transform: capitalize;
+    }
+    .cards {
+        width: 100%;
+    }
+    .cards p {
+        padding: 10px;
+    }
+}

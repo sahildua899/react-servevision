@@ -1,0 +1,108 @@
+.keypoints-image-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+.keypoints-image-main-section {
+    display: flex;
+}
+.keypoints-section {
+    width: 50%;
+}
+.keypoints-section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10%;
+    font-family: 'DM Serif Display', serif;
+}
+.keypoint {
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 10px;
+}
+.keypoint p {
+    margin-left: 10px;
+    font-size: 110%;
+    font-family: 'DM Serif Display', serif;
+    text-transform: capitalize;
+}
+.keypoint i {
+    color: rgb(0, 4, 128);
+    font-size: 20px;
+}
+.main-image-section {
+    width: 50%;
+}
+.main-image-section img {
+    width: 70%;
+    border-radius: 20px;
+    /* border: 10px double black; */
+    box-shadow: 0 0 15px #ccc;
+    cursor: pointer;
+}
+.keypoints-image-section {
+    height: calc(90vh - 50px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.keypoints-image-main-section {
+    height: calc(100% - 5rem);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image-button-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.image-button {
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 1.2rem;
+    box-shadow:0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #FFFFFF ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background: #6d5dfc;
+    color: #E4EBF5;
+    font-size: 25px;
+    display: flex;
+    user-select: none;
+    font-family: 'DM Serif Display', serif;
+}
+.image-button:hover {
+    color: #FFFFFF;
+}
+.image-button:active {
+    box-shadow: inset 0.2rem 0.2rem 1rem #5b0eeb, inset -0.2rem -0.2rem 1rem #8abdff;
+}
+
+@media (max-width:600px){
+    .keypoints-image-main-section {
+        flex-direction: column;
+        height: auto;
+    }
+    .keypoints-image-section {
+        height: auto;
+    }
+    .keypoints-section {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .keypoints-section h2 {
+        font-size: 25px;
+    }
+    .main-image-section {
+        width: 100%;
+    }
+    .main-image-section img {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
